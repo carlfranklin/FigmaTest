@@ -1,0 +1,21 @@
+﻿@using Microsoft.AspNetCore.Components.Web
+@namespace FigmaTest.Pages
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <base href="~/" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <link href="css/index.css" type="text/css" rel="stylesheet" />
+    <link href="css/styleguide.css" type="text/css" rel="stylesheet" />
+    <link href="css/globals.css" type="text/css" rel="stylesheet" />
+    <component type="typeof(HeadOutlet)" render-mode="Server" />
+</head>
+<body style="margin: 0; background: #ffffff">
+    @RenderBody()
+    <script src="_framework/blazor.server.js"></script>
+</body>
+</html>

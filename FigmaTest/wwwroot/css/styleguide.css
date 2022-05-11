@@ -1,0 +1,30 @@
+:root { 
+  --black: #000000;
+  --ditto140: #555be3;
+  --golbat0: #ffffff;
+  --golbat140: #212529;
+  --golbat5: #f8f9fa;
+ 
+  --font-size-l: 32px;
+  --font-size-m: 29px;
+  --font-size-s: 16px;
+  --font-size-xs: 15px;
+ 
+  --font-family-poppins: "Poppins", Helvetica;
+  --font-family-sf_pro_text-semibold: "SF Pro Text-Semibold", Helvetica;
+}
+.body1 {
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.poppins-light-shark-29px {
+  color: var(--golbat140);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 300;
+}
